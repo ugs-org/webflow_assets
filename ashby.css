@@ -1,3 +1,54 @@
+:root {
+  --fontFamily: 'Poppins', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'Arial', 'Apple Color Emoji',
+    'Segoe UI Emoji', sans-serif;
+
+  /*
+	 *  WARNING
+	 *  If you want to add/modify you need to make sure your changes work with the
+	 *  theme colors users can set in our admin section.
+	 */
+  --colorAppBackground: #343434;
+  /* --colorPrimary900: darkorange;
+  --colorPrimary600: orange;
+  --colorNegative200: #fce8e8;
+  --colorPositive200: #eafcec;
+  --colorWarning800: #8c6d1f;
+  --colorWarning600: #f4ca64;
+  --colorNegative600: #dc3030;
+  --colorPositive600: #29b458;
+  --colorWarning900: #5c4813; */
+}
+
+.ashby-job-posting-right-pane-application-tab, .ashby-job-posting-right-pane-overview-tab {
+  color: #fff;
+}
+
+/* A container for the application form. */
+.ashby-application-form-container {
+  background-color: #f7f8fa;
+  box-shadow: none;
+}
+
 .ashby-job-board-back-to-all-jobs-button {
-	display: none !important;
+  display: none !important;
+}
+
+#root,
+#overview,
+.ashby-job-posting-left-pane,
+.ashby-job-posting-right-pane {
+  background-color: #343434;
+  color: #fff;
+}
+
+.ashby-job-posting-left-pane h2 {
+  color: #fff;
+}
+
+.ashby-job-posting-heading {
+  color: #fff;
+}
+
+[class^="_powered_"] {
+  display: none;
 }
